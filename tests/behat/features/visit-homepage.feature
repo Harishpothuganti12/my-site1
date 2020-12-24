@@ -1,4 +1,3 @@
-@no_auth
 Feature: Visibility of the home page
   In order to have confidence that build tools works
   As a site administrator
