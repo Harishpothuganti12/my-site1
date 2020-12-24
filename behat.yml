@@ -14,6 +14,6 @@ default:
         goutte: ~
         javascript_session: selenium2
         selenium2:
-          wd_host: http://127.0.0.1:4444/wd/hub
+          wd_host: http://192.168.99.100:4444/wd/hub
           capabilities: { "version": "*", 'chrome': {'switches':['--start-maximized']}}
         base_url: 'https://dev-my-site3.pantheonsite.io/'
