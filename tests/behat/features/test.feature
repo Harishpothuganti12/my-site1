@@ -4,8 +4,8 @@ Feature: In order to view my Account details,
 
    Scenario: Verify user is able to view My account section on successful login
              Given I am on homepage
-             And I follow "Sign in"
-             When I fill in "email" with "fill_in_your_email_ID"
-             And I fill in "passwd" with "fill_in_your_password"
-             And I press "Sign in"
+             And I follow "Log in"
+             When I fill in "Username" with "admin"
+             And I fill in "Password" with "Welcome123"
+             And I press "Log in"
              Then I should see "My account"
